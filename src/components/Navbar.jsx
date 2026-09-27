@@ -33,6 +33,13 @@ export default function Navbar() {
             </a>
 
             <a
+              href="#skills"
+              className="text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
+            >
+              Education
+            </a>
+
+            <a
               href="#projects"
               className="text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
             >
@@ -75,6 +82,14 @@ export default function Navbar() {
                 className="py-1 text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
               >
                 Skills
+              </a>
+
+              <a
+                href="#skills"
+                onClick={() => setIsOpen(false)}
+                className="py-1 text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
+              >
+                Education
               </a>
 
               <a
