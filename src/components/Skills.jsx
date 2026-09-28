@@ -60,7 +60,7 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="mx-auto max-w-4xl px-6 py-16"
+            className="mx-auto max-w-4xl px-6 py-24"
         >
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}

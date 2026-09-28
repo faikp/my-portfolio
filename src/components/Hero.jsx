@@ -1,7 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 export default function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col justify-start px-6 pt-20 md:justify-center px-6">
       <motion.p
@@ -54,12 +58,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          href="#contact"
+          onClick={() => setIsOpen(true)}
           className="w-fit rounded-full border border-zinc-700 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-zinc-900"
         >
           Contact Me
         </motion.a>
       </div>
+      <ContactModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+      />
     </section>
   );
 }
