@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
+:root {
+  --font-sans:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "Segoe UI",
+    sans-serif;
+}
+
 body {
   background-color: #09090b;
   color: #ffffff;
+  font-family: var(--font-sans);
 }

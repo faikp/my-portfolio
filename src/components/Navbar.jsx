@@ -11,7 +11,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/90 px-6 py-5"
+      className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/70 px-6 py-5 backdrop-blur-xl"
     >
       <div className="mx-auto max-w-6xl">
         <div className="flex items-center justify-between">
@@ -75,14 +75,6 @@ export default function Navbar() {
                 className="py-1 text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
               >
                 Skills
-              </a>
-
-              <a
-                href="#skills"
-                onClick={() => setIsOpen(false)}
-                className="py-1 text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
-              >
-                Education
               </a>
 
               <a

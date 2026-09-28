@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="mx-auto max-w-4xl px-6 py-16">
+    <section id="about" className="mx-auto max-w-4xl px-6 py-24">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
