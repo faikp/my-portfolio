@@ -33,13 +33,6 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#skills"
-              className="text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
-            >
-              Education
-            </a>
-
-            <a
               href="#projects"
               className="text-sm text-zinc-400 transition-colors duration-200 hover:text-white"
             >
