@@ -16,7 +16,7 @@ export default function Dock() {
         </a>
 
         <a
-          href="YOUR_GITHUB_URL"
+          href="https://github.com/faikp"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-xl px-4 py-2 text-sm text-zinc-300 transition-colors hover:bg-white/10 hover:text-white"
@@ -25,7 +25,7 @@ export default function Dock() {
         </a>
 
         <a
-          href="YOUR_LINKEDIN_URL"
+          href="https://www.linkedin.com/in/faik-patel-a31639424/"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-xl px-4 py-2 text-sm text-zinc-300 transition-colors hover:bg-white/10 hover:text-white"

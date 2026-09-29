@@ -7,7 +7,9 @@ export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="mx-auto flex min-h-[80vh] max-w-4xl flex-col justify-start px-6 pt-20 md:justify-center px-6">
+    <section 
+    id="home"
+    className="mx-auto flex min-h-[80vh] max-w-4xl flex-col justify-start px-6 pt-20 md:justify-center px-6">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

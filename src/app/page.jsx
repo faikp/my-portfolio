@@ -1,3 +1,4 @@
+import ScrollToTop from "@/components/ScrollToTop";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -9,6 +10,7 @@ import Dock from "@/components/Dock";
 export default function Home() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Hero />
       <About />
