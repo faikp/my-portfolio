@@ -14,8 +14,8 @@ const projects = [
       "REST API",
     ],
     githubUrl: "https://github.com/faikp/product-admin-dashboard",
-    liveUrl: "https://product-admin-dashboard-two-tau.vercel.app/login",
-    previewUrl: "https://product-admin-dashboard-two-tau.vercel.app/login",
+    liveUrl: "https://faik-product-admin-dashboard.vercel.app/login",
+    previewUrl: "https://faik-product-admin-dashboard.vercel.app/login",
   },
 
   {
