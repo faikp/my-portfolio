@@ -58,8 +58,8 @@ const projects = [
       "A responsive personal developer portfolio built to showcase my projects, skills and frontend development experience with a clean and minimal user interface.",
     tech: ["HTML5", "CSS3", "JavaScript", "Responsive UI"],
     githubUrl: "https://github.com/faikp/my-portfolio",
-    liveUrl: "https://faikp.github.io/11-responsive-portfolio/",
-    previewUrl: "https://faikp.github.io/11-responsive-portfolio/",
+    liveUrl: "https://faik-portfolio-dev.vercel.app/",
+    previewUrl: "https://faik-portfolio-dev.vercel.app/",
   },
 ];
 
